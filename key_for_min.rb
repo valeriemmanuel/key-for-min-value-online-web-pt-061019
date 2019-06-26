@@ -7,7 +7,6 @@ end
 
 key_for_min_value_my_try(ikea)
 
-# This is learn.co's passing solution
 
 def key_for_min_value(hash)
   smallest_key = nil
@@ -56,37 +55,7 @@ end
   
 monopoly
 
-
-# The following method won't work... the correct way is below:
-
-# def monopoly_with_third_tier
-#  monopoly[:pieces] = 4,
-#  monopoly[:rent_in_dollars] = "one_piece_owned", "two_pieces_owned", "three_pieces_owned", "four_pieces_owned"
-#  monopoly[:names] = "reading_railroad", "pennsylvania_railroad", "b_and_o_railroad", "shortline"
-# end 
-
-
-# This one did not pass the learn.co test because of the following error message:
-
-# expected: [:pieces, :names, :rent_in_dollars]
-# got:      [:pieces, :rent_in_dollars, :names]
-
-
-# def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-#   monopoly = {
-#     railroads: {
-#       pieces: 4,
-#       rent_in_dollars: {}, 
-#       names: {}
-#     }
-#   }
-# end
-
-# This one passed correctly:
-
 def monopoly_with_second_tier
-#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
   monopoly = {
     railroads: {
      pieces: 4,
